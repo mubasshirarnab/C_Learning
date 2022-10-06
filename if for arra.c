@@ -7,9 +7,10 @@ int main()
 {
     int a, b;
     scanf("%d\n%d", &a, &b);
-    for( ;a <= b;a++)
+    while( a <= b)
     {
         printf("%s\n", wordify(a) );
+        ++a;
     }
     return 0;
 }
