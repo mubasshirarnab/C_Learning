@@ -23,7 +23,7 @@ int main()
         }
     }
     printf("After removing all the duplicate elements: ");
-    for(i=0; i<count; i++){
+    for(i=0; i<n-count; i++){
         printf("%d ", arrayA[i]);
     }
 
