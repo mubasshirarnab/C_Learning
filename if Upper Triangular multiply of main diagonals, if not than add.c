@@ -24,7 +24,7 @@ int main()
 
     for(i=1; i<n; i++){
         for(j=0; j<i; j++){
-            if(array[i][j]==0){
+            if(array[i][j]!=0){
                 flag=1;
             }
         }
@@ -50,7 +50,7 @@ int main()
         }
     }
 
-    if(flag==1){
+    if(flag==0){
         printf("\nThe Product is: %d", product);
     }
     else{
